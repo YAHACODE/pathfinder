@@ -17,7 +17,6 @@
 {
     OALSimpleAudio *audio = [OALSimpleAudio sharedInstance];
     [audio preloadEffect:@"button.wav"];
-   // [audio preloadEffect:@""];
     [audio playEffect:@"button.wav"];
     CCScene *MainScene = [CCBReader loadAsScene:@"MainScene"];
     [[CCDirector sharedDirector] replaceScene:MainScene];

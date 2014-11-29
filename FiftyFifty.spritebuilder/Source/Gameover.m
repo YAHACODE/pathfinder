@@ -38,7 +38,6 @@
     NSLog(@"Modal view has been dismissed, its time to resume the paused activities.");
     AmazonAdOptions *adOptions = [AmazonAdOptions options];
     
-    //    adOptions.isTestRequest = YES;
     
     [self.interstitial load:adOptions];
 }
@@ -50,7 +49,6 @@
     self.interstitial.delegate = self;
     AmazonAdOptions *adOptions = [AmazonAdOptions options];
     
-//    adOptions.isTestRequest = YES;
     
     [self.interstitial load:adOptions];
 
