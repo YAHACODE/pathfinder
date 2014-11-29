@@ -28,7 +28,6 @@
 #import "AppDelegate.h"
 #import "CCBuilderReader.h"
 #import <AmazonAd/AmazonAdRegistration.h>
-//#import <mgwuSDK/MGWU.h>
 
 
 
@@ -43,16 +42,10 @@
 
     //amazon ads
     
-    //mgwu
-//    [MGWU loadMGWU:@"yahyajustinmitch1"];
-//    [MGWU setReminderMessage:@"Come back and play this game now!"];
-
-
 
     
 
 
-    //mgwu
     
     // Configure Cocos2d with the options set in SpriteBuilder
     NSString* configPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Published-iOS"]; // TODO: add support for Published-Android support
