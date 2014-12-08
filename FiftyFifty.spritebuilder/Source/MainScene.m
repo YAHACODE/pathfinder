@@ -186,13 +186,6 @@ static  CGFloat scrollSpeed = 500.f;
 }
 
 
-//-(BOOL) ccPhysicsCollisionPreSolve:(CCPhysicsCollisionPair *)pair player:(CCSprite *)nodeA boundingBox:(CCNode *)nodeB
-//{
-//
-//    return FALSE;
-//}
-
-
 
 -(BOOL) ccPhysicsCollisionPreSolve:(CCPhysicsCollisionPair *)pair player:(CCSprite *)nodeA obstacle:(CCNode *)nodeB
 {
@@ -261,17 +254,6 @@ static  CGFloat scrollSpeed = 500.f;
     }
 }
 
-//-(void) touchMoved1:(UITouch *)touch withEvent:(UIEvent *)event
-//{
-//    if (!presentedGameOver) {
-//        CGPoint touchLocation = [touch locationInNode:self];
-//        float screenWidth = [[CCDirector sharedDirector] viewSize].width;
-//        float leftPadding = 3;
-//        float rightPadding = 18;
-//        player2.position = ccp(MAX(40+leftPadding,MIN(touchLocation.x,screenWidth-32-rightPadding)), player2.position.y);
-//    }
-//}
-
 
 
 - (void) loadPattern
@@ -316,19 +298,6 @@ static  CGFloat scrollSpeed = 500.f;
     [self showScore];
     _scoreLabel.visible = true;
 
-    
-//    if (points >= 10) {
-//        CCSprite *playertwo = [CCSprite spriteWithImageNamed:@"ccbResources/SquareBlue.png"];
-//        playertwo.position = nodeA.position;
-//
-//        [nodeA removeFromParent];
-//
-//       [_testicles addChild:playertwo];
-//     [self performSelector:@selector(touchMoved1:withEvent:) withObject:nil afterDelay:0];
-//
-//        
-//
-//    }
     
     
 
